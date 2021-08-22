@@ -8,7 +8,7 @@ docekr push santoshbs/multi-worker:latest
 
 docker push santoshbs/multi-client:$SHA
 docker push santoshbs/multi-server:$SHA
-docekr push santoshbs/multi-worker:$SHA
+docker push santoshbs/multi-worker:$SHA
 
 kubectl apply -f k8s
 
