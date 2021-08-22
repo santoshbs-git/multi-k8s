@@ -1,6 +1,6 @@
 docker build -t santoshbs/multi-client:latest -t santoshbs/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t santoshbs/multi-server:latest -t santoshbs/multi-server:$SHA -f ./server/Dockerfile ./server
-dokcer build -t santoshbs/mutli-worker:latest -t santoshbs/multi-worker:$SHA -f ./worker/Dockerfile ./worker
+dokcer build -t santoshbs/multi-worker:latest -t santoshbs/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push santoshbs/multi-client:latest
 docker push santoshbs/multi-server:latest
