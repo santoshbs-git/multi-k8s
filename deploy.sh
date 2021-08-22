@@ -4,7 +4,7 @@ dokcer build -t santoshbs/mutli-worker:latest -t santoshbs/multi-worker:$SHA -f 
 
 docker push santoshbs/multi-client:latest
 docker push santoshbs/multi-server:latest
-docekr push santoshbs/multi-worker:latest
+docker push santoshbs/multi-worker:latest
 
 docker push santoshbs/multi-client:$SHA
 docker push santoshbs/multi-server:$SHA
